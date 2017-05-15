@@ -2,6 +2,7 @@
 
 ##### https://docs.pytest.org/en/latest/getting-started.html
 Usar pytest para ejecutar desde la terminal y ejecutar todos los de test con el patron 'test_\*.py' o '\*\_test.py'
+Version de pytest usada: pytest==3.0.7
 
 Instalarlo, en entornor virtual no se usa sudo
 ```
