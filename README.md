@@ -41,7 +41,7 @@ $ sudo pip2 install -U pytest
 
 
 
-Ejecutar pytest, ubicarse en la raiz donde estan los archivos tests de python3
+Ejecutar pytest, ubicarse en la raiz donde estan los archivos tests de python
 ```
 $ pytest
 ```
