@@ -15,10 +15,13 @@ class FileTest():
         self.file_open = open(self.file, 'r')
         # call_exception()
         return self.file_open
-    def __exit__(self, type, value, traceback):
+    def __exit__(self, ex_type, ex_value, ex_traceback):
         #Exception handling here
         # call_exception()
         print("close file", self.file)
+        # if _type is None don't happen an exception
+        if ex_type: # equal to: if not (ex_type is None):
+            print(ex_type, ex_value, ex_traceback)
         self.file_open.close()
 
 def call_exception():

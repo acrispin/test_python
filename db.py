@@ -99,7 +99,7 @@ class DBHelper(object):
         # return connection
         return self.conn
 
-    def __exit__(self, type, value, traceback):
+    def __exit__(self, ex_type, ex_value, ex_traceback):
         print("DBHelper close")
         self.close()
 
